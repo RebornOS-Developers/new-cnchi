@@ -1,4 +1,5 @@
 # Maintainer: Rafael <rafael@rebornos.org>
+# PKGBUILD modified for use with Github code
 
 pkgname=new-cnchi
 _pkgname2=new-cnchi-code
@@ -7,7 +8,7 @@ pkgver=20210609
 pkgrel=2
 pkgdesc='New cnchi code installer'
 arch=('any')
-url='https://gitlab.com/rebornos-team/installers/cnchi/code'
+url='https://github.com/RebornOS-Developers'
 license=('GPL3')
 source=("git+${url}/${_pkgname2}"
         "git+${url}/${_pkgname3}")
