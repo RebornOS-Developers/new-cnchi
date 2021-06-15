@@ -4,7 +4,7 @@
 pkgname=new-cnchi
 _pkgname2=new-cnchi-code
 _pkgname3=locale
-pkgver=20210609
+pkgver=20210615
 pkgrel=1
 pkgdesc='New cnchi code installer'
 arch=('any')
