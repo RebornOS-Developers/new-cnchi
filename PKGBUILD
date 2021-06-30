@@ -4,8 +4,8 @@
 pkgname=new-cnchi
 _pkgname2=new-cnchi-code
 _pkgname3=locale
-pkgver=20210625
-pkgrel=3
+pkgver=20210630
+pkgrel=1
 pkgdesc='New cnchi code installer'
 arch=('any')
 url='https://github.com/RebornOS-Developers'
