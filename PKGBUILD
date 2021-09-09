@@ -4,9 +4,9 @@
 pkgname=new-cnchi
 _pkgname2=new-cnchi-code
 _pkgname3=locale
-commit1=7ccc0bcb4eb597a2e368a8bf760e77ce58ce1dcb
+commit1=7569051d43d915e140a3b883c0c6d0cfdd503df4
 commit2=c3d06a98b584e533537d022995a1bba1477b78ba
-pkgver=20210908
+pkgver=20210909
 pkgrel=1
 pkgdesc='New cnchi code installer'
 arch=('any')
