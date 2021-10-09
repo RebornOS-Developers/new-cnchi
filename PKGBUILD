@@ -17,7 +17,7 @@ source=("git+${url}/${codename}#commit=${commit1}"
         "git+${url}/${lname}#commit=${commit2}")
 sha256sums=('SKIP'
             'SKIP')
-            
+       
 pkgver() {
     date +%Y%m%d
 }
