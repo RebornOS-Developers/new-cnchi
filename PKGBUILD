@@ -4,7 +4,7 @@
 pkgname=new-cnchi
 codename=new-cnchi-code
 lname=locale
-commit1=700c19cb66c28584b9e95b09c80b0a773ac6af09
+commit1=3a21715f8e1cb7cc006702a8f1e3ca07405a718c
 commit2=c3d06a98b584e533537d022995a1bba1477b78ba
 pkgver=20211009
 pkgrel=3
