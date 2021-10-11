@@ -4,23 +4,22 @@
 pkgname=new-cnchi
 codename=new-cnchi-code
 lname=locale
-commit1=3a21715f8e1cb7cc006702a8f1e3ca07405a718c
-commit2=c3d06a98b584e533537d022995a1bba1477b78ba
-pkgver=20211009
-pkgrel=3
+ccommit=b207da033c6c5f6db42754912790f12c152ab84a
+lcommit=c3d06a98b584e533537d022995a1bba1477b78ba
+pkgver=20211011
+pkgrel=1
 pkgdesc='New cnchi code installer'
 arch=('any')
 url='https://github.com/RebornOS-Developers'
 license=('GPL3')
 depends=(git)
-source=("git+${url}/${codename}#commit=${commit1}"
-        "git+${url}/${lname}#commit=${commit2}")
-sha256sums=('SKIP'
-            'SKIP')
+source=("git+${url}/${codename}#commit=${ccommit}"
+        "git+${url}/${lname}#commit=${lcommit}")
+sha256sums=('SKIP' 'SKIP')
        
 pkgver() {
     date +%Y%m%d
-}
+     }
 
 package() {
     install -d ${pkgdir}/usr/share/cnchi
