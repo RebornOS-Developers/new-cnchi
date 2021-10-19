@@ -4,10 +4,10 @@
 pkgname=new-cnchi
 codename=new-cnchi-code
 lname=locale
-ccommit=1fa60016aa8758cdb02b56366db8b545aead4c18
+ccommit=ca8e44958e7c2f440e4a5669ce662b8e68361045
 lcommit=c3d06a98b584e533537d022995a1bba1477b78ba
-pkgver=20211018
-pkgrel=2
+pkgver=20211019
+pkgrel=1
 pkgdesc='New cnchi code installer. Do not install it on a computer that is already running RebornOS.'
 arch=('any')
 url='https://github.com/RebornOS-Developers'
